@@ -11,7 +11,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          I have made a change to the file, pushing to github
+          Changes from Dockercloud and Github?
         </p>
       </div>
     );
