@@ -4,8 +4,7 @@ ENV NPM_CONFIG_LOGLEVEL warn
 ARG app_env
 ENV APP_ENV $app_env
 
-RUN mkdir -p /frontend /var/lib/data \
-  && chown -R /var/lib/data
+RUN mkdir -p /frontend
 WORKDIR /frontend
 
 VOLUME /var/lib/data
