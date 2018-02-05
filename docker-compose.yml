@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  createreact:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '80:3000'
+    volumes:
+      - /var/lib/data
