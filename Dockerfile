@@ -1,4 +1,4 @@
-FROM node:~8.9.4"
+FROM node:latest
 
 ENV NPM_CONFIG_LOGLEVEL warn
 ARG app_env
