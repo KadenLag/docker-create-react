@@ -5,7 +5,7 @@ ARG app_env
 ENV APP_ENV $app_env
 
 RUN mkdir -p /frontend
-COPY ./ ./
+COPY ./ ./frontend
 
 WORKDIR /frontend
 VOLUME /var/lib/data
