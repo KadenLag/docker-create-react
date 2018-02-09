@@ -12,6 +12,6 @@ VOLUME /var/lib/data
 
 RUN yarn
 
-EXPOSE 4000
+EXPOSE 3000
 
 CMD [ "yarn", "start" ]
