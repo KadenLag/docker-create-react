@@ -8,11 +8,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+            <p className="App-intro">
+              Victory Summoner!
+            </p>
         </header>
-        <p className="App-intro">
-          Changes from Dockercloud and Github?!
-        </p>
       </div>
     );
   }
