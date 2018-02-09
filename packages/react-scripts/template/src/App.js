@@ -9,7 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
             <p className="App-intro">
-              This is a staging branch
+              Welcome to staging
             </p>
         </header>
       </div>
