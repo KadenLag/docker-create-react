@@ -10,7 +10,7 @@ COPY ./ ./frontend
 WORKDIR /frontend
 VOLUME /var/lib/data
 
-RUN yarn
+RUN yarn && yarn cache clean
 
 EXPOSE 3000
 
